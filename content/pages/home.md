@@ -11,7 +11,7 @@ meta:
 
 Welcome to Earth and Fire, where we make great beer happen.
 
-# Features
+# HOURS
 Open
 Mon-Thurs
 12PM to 6PM
