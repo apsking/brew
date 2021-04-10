@@ -65,12 +65,12 @@ export default class BeerList extends Component {
       )
 
   componentDidMount() {
-    const { images } = this.props,
-      maxCount = images.length
+    const { beerlist } = this.props,
+      maxCount = beerlist.length
     let loopCount = 1
 
-    for (let i in images) {
-      if (this.getImageInfo(images[i], i)) {
+    for (let i in beerlist) {
+      if (this.getImageInfo(beerlist[i], i)) {
         this.setState({ loaded: loopCount === maxCount })
         loopCount++
       }

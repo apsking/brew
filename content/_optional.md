@@ -9,6 +9,13 @@ gallery:
   - alt: ''
     image: ''
     title: ''
+beerlist:
+  - alt: ''
+    image: ''
+    title: ''
+    abv: ''
+    ibu: ''
+    description: ''
 ---
 
 <!-- Use this to force Gatsby to correctly determine optional images/file schema -->

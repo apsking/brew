@@ -29,7 +29,7 @@ export const OurBeersPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <BeerList images={beerlist} />
+        <BeerList beerlist={beerlist} />
       </div>
     </section>
 
@@ -50,7 +50,7 @@ const OurBeersPage = ({ data: { page } }) => (
   </Layout>
 )
 
-export default OurBeersPage
+export default OurBeersPage;
 
 export const pageQuery = graphql`
   query OurBeersPage($id: String!) {
