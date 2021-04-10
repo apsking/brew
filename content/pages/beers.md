@@ -1,4 +1,6 @@
 ---
+template: BeersPage
+slug: beers
 title: Our Beers
 featuredImage: https://ucarecdn.com/d23bd728-ffa3-4fe3-aa8c-12775f0eeebf/
 subtitle: You know you want some!

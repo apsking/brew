@@ -6,7 +6,6 @@ import Image from './Image'
 import _kebabCase from 'lodash/kebabCase'
 
 import './BeerList.css'
-import 'react-photoswipe/lib/photoswipe.css'
 
 export const query = graphql`
   fragment BeerList on MarkdownRemark {
@@ -79,15 +78,15 @@ export default class BeerList extends Component {
   }
 
   render() {
-    const { images } = this.props
+    const { beerlist } = this.props
     return (
       <Fragment>
-        {images && images.length > 0 && (
+        {beerlist && beerlist.length > 0 && (
           <div className="BeerList">
-            {images.map((image, index) => (
+            {beerlist.map((beer, index) => (
               <div
                 className="BeerList--Item"
-                key={_kebabCase(image.alt) + '-' + index}
+                key={_kebabCase(beer.alt) + '-' + index}
                 tabIndex={0}
                 aria-label="Toggle BeerList"
                 role="button"
@@ -95,14 +94,14 @@ export default class BeerList extends Component {
                 <div>
                   <Image
                     resolutions="small"
-                    src={image.image}
-                    alt={image.alt}
+                    src={beer.image}
+                    alt={beer.alt}
                   />
                 </div>
-                {image.title && <b>{image.title}</b>}
-                {image.abv && <span>ABV: {image.abv}</span>}
-                {image.ibu && <span>IBU: {image.ibu}</span>}
-                {image.description && <p>{image.description}</p>}
+                {beer.title && <b>{beer.title}</b>}
+                {beer.abv && <span>ABV: {beer.abv}</span>}
+                {beer.ibu && <span>IBU: {beer.ibu}</span>}
+                {beer.description && <p>{beer.description}</p>}
               </div>
             ))}
           </div>
@@ -113,5 +112,5 @@ export default class BeerList extends Component {
 }
 
 BeerList.propTypes = {
-  images: PropTypes.array.isRequired
+  beerlist: PropTypes.array.isRequired
 }
