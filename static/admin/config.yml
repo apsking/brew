@@ -194,6 +194,57 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
+      - file: 'content/pages/beers.md'
+        label: 'Our Beers'
+        name: 'beers-page'
+        fields:
+          - {
+              label: Template,
+              name: template,
+              widget: hidden,
+              default: OurBeersPage,
+            }
+          - { label: Slug, name: slug, widget: hidden, default: 'beers' }
+          - { label: Title, name: title, widget: string }
+          - { label: Featured Images, name: featuredImage, widget: image }
+          - { label: Subtitle, name: subtitle, widget: markdown }
+          - { label: Section 1, name: section1, widget: markdown }
+          - { label: Section 2, name: section2, widget: markdown }
+          - label: 'BeerList'
+            name: 'beerlist'
+            widget: 'list'
+            fields:
+              - { name: image, label: Image, widget: image }
+              - { name: alt, label: Alt, widget: string }
+              - { name: title, label: Title, widget: string }
+              - { name: abv, label: ABV, widget: string }
+              - { name: ibu, label: IBU, widget: string }
+              - { name: description, label: Description, widget: string }
+          - label: 'Meta'
+            required: false
+            name: 'meta'
+            widget: 'object'
+            fields:
+              - { label: Title, name: title, widget: string, required: false }
+              - {
+                  label: Description,
+                  name: description,
+                  widget: text,
+                  required: false,
+                }
+              - {
+                  label: Canonical Link,
+                  name: canonicalLink,
+                  widget: string,
+                  required: false,
+                }
+              - {
+                  label: Noindex,
+                  name: noindex,
+                  widget: boolean,
+                  required: false,
+                }
+
       - file: 'content/pages/home.md'
         label: 'Home Page'
         name: 'home-page'

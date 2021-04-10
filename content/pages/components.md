@@ -1,7 +1,7 @@
 ---
 template: ComponentsPage
 slug: components
-title: Our Beer
+title: The Brewery
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
 subtitle: You know you want some
 section1: >-

@@ -1,0 +1,63 @@
+.BeerList {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/* @media screen and (max-width: 750px) {
+  .BeerList {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+} */
+
+.BeerList--Item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* width: 25rem; */
+  margin: 0;
+  padding: 3rem;
+  cursor: pointer;
+  text-align: center;
+  /* min-height: 50rem; */
+} 
+
+/* @media screen and (max-width: 750px) {
+  .BeerList--Item {
+    width: 100%;
+    max-width: 30rem;
+  }
+} */
+
+.BeerList--Item > div {
+  position: relative;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+}
+
+.BeerList--Item .BackgroundImage {
+  border-radius: 50%;
+}
+
+/* .BeerList--Item figcaption {
+  text-align: center;
+  padding: 1rem 0;
+} */
+
+/* @supports (object-fit: cover) {
+  .BeerList--Item img {
+    position: relative;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
+} */
