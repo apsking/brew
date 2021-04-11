@@ -73,7 +73,7 @@ export class Navigation extends Component {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/brewery/">The Brewery</NavLink>
             <NavLink to="/beers/">Our Beer</NavLink>
-            <NavLink to="/default/">Events</NavLink>
+            <NavLink to="/events/">Events</NavLink>
             <NavLink to="/contact/">Contact</NavLink>
           </div>
           <button

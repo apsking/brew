@@ -7,6 +7,7 @@ import { BreweryPageTemplate } from '../templates/BreweryPage'
 import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { OurBeersPageTemplate } from '../templates/BeersPage'
+import { EventsPageTemplate } from '../templates/EventsPage'
 import uploadcare from 'netlify-cms-media-library-uploadcare'
 
 CMS.registerMediaLibrary(uploadcare)
@@ -36,4 +37,7 @@ CMS.registerPreviewTemplate('contact-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('infoPages', ({ entry }) => (
   <DefaultPageTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('events-page', ({ entry }) => (
+  <EventsPageTemplate {...entry.toJS().data} />
 ))
