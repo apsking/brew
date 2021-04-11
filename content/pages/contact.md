@@ -2,7 +2,7 @@
 template: ContactPage
 slug: contact
 title: Contact
-featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
+featuredImage: https://ucarecdn.com/683032c9-afdd-47bc-a0fb-b802fb58e05b/-/crop/1816x1153/584,447/-/preview/
 address: |-
   825 Riverside Ave, Ste 1
   Paso Robles, CA, CA 93446
