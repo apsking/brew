@@ -15,7 +15,6 @@ section2: " "
 video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
 videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: " "
-accordion: []
 gallery:
   - alt: yellow rope image
     image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/

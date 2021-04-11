@@ -1,3 +1,7 @@
+## Attribution:
+* Pouring beer - https://www.pexels.com/video/pouring-beer-into-a-glass-2356468/
+* Netlify theme - https://github.com/thriveweb/yellowcake
+
 # Yellowcake
 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)

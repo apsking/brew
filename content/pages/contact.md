@@ -3,12 +3,10 @@ template: ContactPage
 slug: contact
 title: Contact
 featuredImage: https://ucarecdn.com/e22a858a-b420-47af-99f6-ed54b6860333/
-subtitle: " "
 address: |-
   825 Riverside Ave, Ste 1
   Paso Robles, CA, CA 93446
 phone: (805) 270-2959
-email: " "
 locations:
   - lat: "-27.9654732"
     lng: "153.2432449"
