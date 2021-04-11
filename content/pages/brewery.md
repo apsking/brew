@@ -3,28 +3,31 @@ template: BreweryPage
 slug: brewery
 title: The Brewery
 featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
-subtitle: You know you want some
+subtitle: ""
 section1: >-
-  ## This is a container component
+  ## Neighborhood Nano Brewery
 
-  A sem vel nec sodales mi vivamus senectus sed potenti a parturient nascetur tincidunt nisi pulvinar rhoncus a. Risus imperdiet taciti suspendisse facilisi a per metus cubilia varius a nostra adipiscing amet ultrices quisque ac mi a.
-
-
-  [Dictumst a ultrices mi]() a dignissim ad fermentum eget a nam et a blandit scelerisque. Taciti lorem tempor quam vestibulum dis habitasse vestibulum diam vel est ut proin dis auctor. Suscipit sceler isque orci magna interdum vel bibendum duis netus a consectetur dui magnis ac aliquet sem posuere tincidunt vestibulum.
+  Specializing in a variety of unfiltered craft beers from our Farm House Ale’s, Double IPA’s to our Chocolate Stout. 
 section2: " "
 video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
 videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
 videoTitle: " "
 gallery:
-  - alt: yellow rope image
-    image: https://ucarecdn.com/277cdf82-24aa-4d80-8169-bb46f4cd319d/
-    title: Yellow Rope
-  - alt: umbrellas
-    image: https://ucarecdn.com/5da63204-4ff0-4235-aac3-852921d7c632/
-    title: a bunch of umbrellas
-  - alt: yellow ice cream
-    image: https://ucarecdn.com/83485d70-1552-4c97-b237-22330fb56a1e/
-    title: Yellow Ice Cream
+  - image: https://ucarecdn.com/e6709f69-ae6e-41f8-a10b-1b1d73de047e/-/preview/-/enhance/50/
+    alt: Group of people celebrating behind bar with beers on bar
+  - alt: Earth and Fire lounge with chairs around barrel tables
+    image: https://ucarecdn.com/4cb0bc2d-ced7-4477-9a00-ec912cc0a270/-/preview/-/enhance/19/
+    title: ""
+  - alt: Man smelling beer. Beer glass against beer barrel backdrop
+    image: https://ucarecdn.com/79b89cbe-8b16-4960-8f9f-b16093aa9483/
+    title: ""
+  - alt: Earth and Fire branded hat on top of branded shirt
+    image: https://ucarecdn.com/4c66bed7-b95b-49f7-829e-f6a7ab520fe6/-/preview/-/enhance/50/
+    title: ""
+  - image: https://ucarecdn.com/6764f59e-791b-48a3-8778-19ffbf02f4d8/
+    alt: Half-full  glass of dark beer
+  - image: https://ucarecdn.com/ebac4917-1682-4c7d-854a-bfec71232b42/
+    alt: Half-full tulip glass in front of mural-painted wall
 meta:
   description: This is a meta description.
   title: The Brewery
