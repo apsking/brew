@@ -2,7 +2,7 @@
 template: BeersPage
 slug: beers
 title: Our Beer
-featuredImage: https://ucarecdn.com/d23bd728-ffa3-4fe3-aa8c-12775f0eeebf/
+featuredImage: https://ucarecdn.com/9b1dea2b-fb76-4600-b534-16eec5191770/-/crop/1935x1056/0,462/-/preview/
 section1: Featuring a 10-barrel system, we specialize in classic American ales
   and lagers along with Belgian-style beers. There is a beer for everyone -
   whether you prefer light, hoppy, fruity, malted, or sweet.
