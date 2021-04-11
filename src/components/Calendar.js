@@ -105,9 +105,6 @@ export default class Calendar extends Component {
               <div
                 className="Calendar--Item"
                 key={_kebabCase(event.alt) + '-' + index}
-                tabIndex={0}
-                aria-label="Toggle Calendar"
-                role="button"
               >
                 <div>
                   <Image
