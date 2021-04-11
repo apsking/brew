@@ -2,7 +2,7 @@
 template: BreweryPage
 slug: brewery
 title: The Brewery
-featuredImage: https://ucarecdn.com/dd718f6d-a607-4a9e-b379-5d15c864d953/
+featuredImage: https://ucarecdn.com/9e60f37c-f10e-49ac-8184-9355ab153ded/-/crop/1957x1295/443,0/-/preview/
 subtitle: ""
 section1: >-
   ## Neighborhood Nano Brewery
