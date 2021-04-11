@@ -81,7 +81,7 @@ class Form extends React.Component {
                 name="firstname"
                 required
               />
-              <span>Firstname</span>
+              <span>First name</span>
             </label>
             <label className="Form--Label">
               <input
@@ -91,30 +91,9 @@ class Form extends React.Component {
                 name="lastname"
                 required
               />
-              <span>Lastname</span>
+              <span>Last name</span>
             </label>
           </div>
-          <fieldset>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="male"
-                defaultChecked
-              />
-              <span>Male</span>
-            </label>
-            <label className="Form--Label Form--Radio">
-              <input
-                className="Form--RadioInput"
-                type="radio"
-                name="gender"
-                value="female"
-              />
-              <span>Female</span>
-            </label>
-          </fieldset>
           <label className="Form--Label">
             <input
               className="Form--Input Form--InputText"
@@ -135,9 +114,9 @@ class Form extends React.Component {
               <option disabled hidden>
                 Type of Enquiry
               </option>
-              <option>Need to know more</option>
-              <option>Found a bug</option>
-              <option>Want to say hello</option>
+              <option>Schedule a private event</option>
+              <option>Found an issue with the website</option>
+              <option>Something else</option>
             </select>
           </label>
           <label className="Form--Label">
