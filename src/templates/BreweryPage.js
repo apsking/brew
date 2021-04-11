@@ -35,7 +35,6 @@ export const BreweryPageTemplate = ({
 
     <section className="section">
       <div className="container">
-        <h2>Our gallery component</h2>
         <Gallery images={gallery} />
       </div>
     </section>
@@ -51,6 +50,7 @@ export const BreweryPageTemplate = ({
         {video && <source src={video} type="video/mp4" />}
       </BackgroundVideo>
     </section>
+    <br/>
   </main>
 )
 

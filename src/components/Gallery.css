@@ -3,7 +3,8 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-flow: row wrap;
+  justify-content:space-evenly;
 }
 
 @media screen and (max-width: 750px) {
@@ -18,9 +19,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: calc(100% / 3 - 5rem);
-  margin: 0;
-  padding: 0;
+  width: 25rem;
+  margin: 1rem;
+  /* padding: 0; */
   cursor: pointer;
 }
 
@@ -33,7 +34,7 @@
 
 .Gallery--Item > div {
   position: relative;
-  width: 100%;
+  width: 25rem;
   height: 25rem;
 }
 
