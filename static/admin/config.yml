@@ -117,7 +117,6 @@ collections: # A list of collections the CMS should be able to edit
           - { name: video, label: video, widget: file }
           - { name: videoPoster, label: videoPoster, widget: image }
           - { label: videoTitle, name: videoTitle, widget: string, required: false }
-            required: false
           - label: 'Gallery'
             name: 'gallery'
             widget: 'list'
@@ -217,15 +216,15 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown, required: false }
-          - label: 'BeerList'
-            name: 'beerlist'
+          - label: 'Calendar'
+            name: 'calendar'
             widget: 'list'
             fields:
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
               - { name: title, label: Title, widget: string }
-              - { name: abv, label: ABV, widget: string }
-              - { name: ibu, label: IBU, widget: string }
+              - { name: date, label: Date, widget: datetime, time_format: false, date_format: "MM/DD/YYYY" }
+              - { name: time, label: Time, widget: string }
               - { name: description, label: Description, widget: string }
           - label: 'Meta'
             required: false
@@ -291,44 +290,6 @@ collections: # A list of collections the CMS should be able to edit
                   widget: boolean,
                   required: false,
                 }
-
-  - name: infoPages
-    label: Info Page
-    editor:
-      preview: true
-    folder: content/infoPages
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    create: true # Allow users to create new documents in this collection
-    fields:
-      - {
-          label: Template,
-          name: template,
-          widget: hidden,
-          default: DefaultPage,
-        }
-      - { label: Slug, name: slug, widget: string }
-      - { label: Title, name: title, widget: string }
-      - { label: Featured Image, name: featuredImage, widget: image }
-      - { label: Body, name: body, widget: markdown }
-      - label: 'Meta'
-        required: false
-        name: 'meta'
-        widget: 'object'
-        fields:
-          - { label: Title, name: title, widget: string, required: false }
-          - {
-              label: Description,
-              name: description,
-              widget: text,
-              required: false,
-            }
-          - {
-              label: Canonical Link,
-              name: canonicalLink,
-              widget: string,
-              required: false,
-            }
-          - { label: Noindex, name: noindex, widget: boolean, required: false }
 
   - name: 'settings'
     label: 'Settings'

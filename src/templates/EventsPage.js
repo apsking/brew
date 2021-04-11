@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import PageHeader from '../components/PageHeader'
 import Content from '../components/Content.js'
 import Layout from '../components/Layout.js'
-import BeerList from '../components/BeerList'
+import Calendar from '../components/Calendar'
 
 // Export Template for use in CMS preview
 export const EventsPageTemplate = ({
@@ -13,7 +13,7 @@ export const EventsPageTemplate = ({
   featuredImage,
   section1,
   section2,
-  beerlist
+  calendar
 }) => (
   <main>
     <PageHeader
@@ -21,15 +21,15 @@ export const EventsPageTemplate = ({
       subtitle={subtitle}
       backgroundImage={featuredImage}
     />
-    <section className="section">
+    {section1 && <section className="section">
       <div className="container">
         <Content source={section1} />
       </div>
-    </section>
+    </section>}
 
     <section className="section">
       <div className="container">
-        <BeerList beerlist={beerlist} />
+        <Calendar calendar={calendar} />
       </div>
     </section>
 
@@ -56,7 +56,7 @@ export const pageQuery = graphql`
   query EventsPage($id: String!) {
     page: markdownRemark(id: { eq: $id }) {
       ...Meta
-      ...BeerList
+      ...Calendar
       html
       frontmatter {
         title
