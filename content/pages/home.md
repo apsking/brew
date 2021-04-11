@@ -2,7 +2,7 @@
 template: HomePage
 slug: ""
 title: Earth and Fire Brewing
-featuredImage: https://ucarecdn.com/82c1042d-d5ae-468a-a30f-88a3e6f6b4fe/
+featuredImage: https://ucarecdn.com/565a131d-e106-41bc-9fd1-203ba816406f/
 meta:
   description: This is a meta description.
   title: The Ultimate Gatsby Starter
