@@ -2,7 +2,7 @@
 template: BreweryPage
 slug: brewery
 title: The Brewery
-featuredImage: https://ucarecdn.com/df0dc650-6938-412f-aefb-2019d2349e13/
+featuredImage: https://ucarecdn.com/dd718f6d-a607-4a9e-b379-5d15c864d953/
 subtitle: ""
 section1: >-
   ## Neighborhood Nano Brewery
@@ -10,7 +10,7 @@ section1: >-
   Specializing in a variety of unfiltered craft beers from our Farm House Ale’s, Double IPA’s to our Chocolate Stout. 
 section2: " "
 video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
-videoPoster: https://ucarecdn.com/69ba14a8-6481-4671-abb6-0e6f0d9c3e46/
+videoPoster: https://ucarecdn.com/0ad166f7-39fd-4c7e-8427-b522b103ab42/
 videoTitle: " "
 gallery:
   - image: https://ucarecdn.com/e6709f69-ae6e-41f8-a10b-1b1d73de047e/-/preview/-/enhance/50/
@@ -28,6 +28,10 @@ gallery:
     alt: Half-full  glass of dark beer
   - image: https://ucarecdn.com/ebac4917-1682-4c7d-854a-bfec71232b42/
     alt: Half-full tulip glass in front of mural-painted wall
+  - image: https://ucarecdn.com/73eeb77b-200e-4784-8f4b-9ad7ff0289e7/-/crop/718x477/55,27/-/preview/-/enhance/50/
+    alt: '"Earth" on a wall mural'
+  - image: https://ucarecdn.com/71860aa4-9de8-418a-8ffc-926e25e382b1/-/preview/-/enhance/50/
+    alt: Beer, growler, and football on top of barrel table
 meta:
   description: This is a meta description.
   title: The Brewery
