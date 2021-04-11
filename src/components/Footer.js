@@ -11,7 +11,8 @@ export default () => (
     <footer className="footer">
       <div className="container taCenter">
         <span>
-          © Copyright {new Date().getFullYear()} All rights reserved. Inspired by{' '}
+          © Copyright {new Date().getFullYear()} All rights reserved. Created by{" "}
+          <a href="https://www.gotalex.com/">Got Alex</a>. Inspired by{' '}
           <a href="https://thriveweb.com.au/">Thrive</a>.
         </span>
       </div>
