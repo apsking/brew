@@ -17,6 +17,10 @@
   margin-bottom: 0;
 }
 
+.PageHeader--TitleImage > img {
+  width: 100%
+}
+
 .PageHeader--Subtitle {
   font-weight: 400;
   font-size: 1.8rem;
