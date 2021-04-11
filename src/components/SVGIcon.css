@@ -23,7 +23,7 @@
 }
 
 .SVGIcon:hover {
-  background: yellow;
+  background: var(--primary);
 }
 
 .SVGIcon:hover .SVGIcon--icon {
