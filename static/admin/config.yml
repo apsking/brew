@@ -133,9 +133,9 @@ collections: # A list of collections the CMS should be able to edit
             name: 'beerlist'
             widget: 'list'
             fields:
+              - { name: title, label: Title, widget: string }
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
-              - { name: title, label: Title, widget: string }
               - { name: abv, label: ABV, widget: string }
               - { name: ibu, label: IBU, widget: string }
               - { name: description, label: Description, widget: string }
@@ -184,10 +184,10 @@ collections: # A list of collections the CMS should be able to edit
             name: 'calendar'
             widget: 'list'
             fields:
+              - { name: date, label: Date, widget: datetime, time_format: false, date_format: "MM/DD/YYYY" }
+              - { name: title, label: Title, widget: string }
               - { name: image, label: Image, widget: image }
               - { name: alt, label: Alt, widget: string }
-              - { name: title, label: Title, widget: string }
-              - { name: date, label: Date, widget: datetime, time_format: false, date_format: "MM/DD/YYYY" }
               - { name: time, label: Time, widget: string }
               - { name: description, label: Description, widget: string }
           - label: 'Meta'
