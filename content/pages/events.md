@@ -2,7 +2,7 @@
 template: EventsPage
 slug: events
 title: Events
-featuredImage: https://ucarecdn.com/63c0f249-0d01-4e36-90bf-d93f204e330e/-/crop/1543x981/857,0/-/preview/
+featuredImage: https://ucarecdn.com/f7d8a35c-4404-4565-b9d8-3cb466631f12/-/crop/1723x1008/677,0/-/preview/
 section1: Featuring a 10-barrel system, we specialize in classic American ales
   and lagers along with Belgian-style beers. There is a beer for everyone -
   whether you prefer light, hoppy, fruity, malted, or sweet.
