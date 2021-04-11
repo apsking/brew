@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import moment from 'moment'
+
 import Image from './Image'
 
 import _kebabCase from 'lodash/kebabCase'
@@ -79,11 +81,27 @@ export default class Calendar extends Component {
 
   render() {
     const { calendar } = this.props
+
+    const upcomingEvents = calendar && calendar.length ?
+      calendar
+        .filter(event => {
+          return moment().isSameOrBefore(event.date)
+        })
+        .sort((a, b) => {
+          return moment(a.date).diff(b.date);
+        }) : [];
     return (
       <Fragment>
-        {calendar && calendar.length > 0 && (
+        {upcomingEvents.length > 0 && (
           <div className="Calendar">
-            {calendar.map((event, index) => (
+            {calendar
+              .filter(event => {
+                return moment().isSameOrBefore(event.date)
+              })
+              .sort((a, b) => {
+                return moment(a.date).diff(b.date);
+              })
+              .map((event, index) => (
               <div
                 className="Calendar--Item"
                 key={_kebabCase(event.alt) + '-' + index}
@@ -99,13 +117,16 @@ export default class Calendar extends Component {
                   />
                 </div>
                 {event.title && <b>{event.title}</b>}
-                {event.date && <span>Date: {event.date}</span>}
+                {event.date && <span>Date: {moment(event.date).format('MM-DD-YYYY')}</span>}
                 {event.time && <span>Time: {event.time}</span>}
                 {event.description && <p>{event.description}</p>}
               </div>
             ))}
           </div>
         )}
+        {upcomingEvents.length === 0 && <div>
+            <h2>There are no upcoming events. Check back later!</h2>
+          </div>}
       </Fragment>
     )
   }

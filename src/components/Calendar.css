@@ -7,42 +7,42 @@
   justify-content: space-between;
 }
 
-/* @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .Calendar {
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-} */
+}
 
 .Calendar--Item {
   position: relative;
   display: flex;
   flex-direction: column;
-  /* width: 25rem; */
-  margin: 0;
-  padding: 3rem;
-  cursor: pointer;
+  width: 25rem;
+  /* margin: 0; */
+  padding: 1rem;
+  /* cursor: pointer; */
   text-align: center;
   /* min-height: 50rem; */
 } 
 
-/* @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .Calendar--Item {
     width: 100%;
     max-width: 30rem;
   }
-} */
+}
 
 .Calendar--Item > div {
   position: relative;
   width: 25rem;
   height: 25rem;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .Calendar--Item .BackgroundImage {
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 /* .Calendar--Item figcaption {

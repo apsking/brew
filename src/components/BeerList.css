@@ -7,13 +7,13 @@
   justify-content: space-between;
 }
 
-/* @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .BeerList {
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-} */
+}
 
 .BeerList--Item {
   position: relative;
@@ -27,12 +27,12 @@
   /* min-height: 50rem; */
 } 
 
-/* @media screen and (max-width: 750px) {
+@media screen and (max-width: 750px) {
   .BeerList--Item {
     width: 100%;
     max-width: 30rem;
   }
-} */
+}
 
 .BeerList--Item > div {
   position: relative;
