@@ -11,7 +11,7 @@ calendar:
   - image: https://ucarecdn.com/afd91e8c-556c-4842-a447-b0515968df73/
     alt: Super Awesome Band
     title: Super Awesome Band
-    date: 2021-04-10
+    date: 2021-04-03T02:59:30.273Z
     time: 6-8PM
     description: Super Awesome Band will be
 ---
