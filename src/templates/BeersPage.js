@@ -33,11 +33,11 @@ export const OurBeersPageTemplate = ({
       </div>
     </section>
 
-    <section className="section">
+    {section2 && <section className="section">
       <div className="container">
         <Content source={section2} />
       </div>
-    </section>
+    </section>}
   </main>
 )
 

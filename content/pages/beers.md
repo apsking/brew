@@ -7,7 +7,6 @@ subtitle: You know you want some!
 section1: Featuring a 10-barrel system, we specialize in classic American ales
   and lagers along with Belgian-style beers. There is a beer for everyone -
   whether you prefer light, hoppy, fruity, malted, or sweet.
-section2: Yay!
 beerlist:
   - image: https://ucarecdn.com/afd91e8c-556c-4842-a447-b0515968df73/
     alt: Cali Blonde Beer
