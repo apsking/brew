@@ -22,57 +22,21 @@ collections: # A list of collections the CMS should be able to edit
     editor:
       preview: true
     files:
-      - file: 'content/pages/contact.md'
-        label: 'Contact Page'
-        name: 'contact-page'
+      - file: 'content/pages/home.md'
+        label: 'Home Page'
+        name: 'home-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: ContactPage,
+              default: HomePage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: 'contact' }
+          - { label: Slug, name: slug, widget: hidden, default: '' }
           - { label: Title, name: title, widget: string }
-          - {
-              label: Featured Image,
-              name: featuredImage,
-              widget: image,
-              options:
-                { media_library: { config: { imageShrink: 2600x2600 } } },
-            }
+          - { label: Featured Image, name: featuredImage, widget: image }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Body, name: body, widget: markdown }
-          - { label: Address, name: address, widget: text, required: false }
-          - { label: Phone, name: phone, widget: string, required: false }
-          - { label: Email Address, name: email, widget: string, required: false }
-          - name: locations
-            label: locations
-            widget: list
-            fields:
-              - {
-                  name: mapLink,
-                  label: mapLink,
-                  widget: string,
-                  required: false,
-                  default: '',
-                }
-              - {
-                  name: lat,
-                  label: latitude,
-                  widget: string,
-                  required: false,
-                  delete: false,
-                  default: '',
-                }
-              - {
-                  name: lng,
-                  label: longitude,
-                  widget: string,
-                  required: false,
-                  delete: false,
-                  default: '',
-                }
           - label: 'Meta'
             required: false
             name: 'meta'
@@ -251,21 +215,57 @@ collections: # A list of collections the CMS should be able to edit
                   required: false,
                 }
 
-      - file: 'content/pages/home.md'
-        label: 'Home Page'
-        name: 'home-page'
+      - file: 'content/pages/contact.md'
+        label: 'Contact Page'
+        name: 'contact-page'
         fields:
           - {
               label: Template,
               name: template,
               widget: hidden,
-              default: HomePage,
+              default: ContactPage,
             }
-          - { label: Slug, name: slug, widget: hidden, default: '' }
+          - { label: Slug, name: slug, widget: hidden, default: 'contact' }
           - { label: Title, name: title, widget: string }
-          - { label: Featured Image, name: featuredImage, widget: image }
+          - {
+              label: Featured Image,
+              name: featuredImage,
+              widget: image,
+              options:
+                { media_library: { config: { imageShrink: 2600x2600 } } },
+            }
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Body, name: body, widget: markdown }
+          - { label: Address, name: address, widget: text, required: false }
+          - { label: Phone, name: phone, widget: string, required: false }
+          - { label: Email Address, name: email, widget: string, required: false }
+          - name: locations
+            label: locations
+            widget: list
+            fields:
+              - {
+                  name: mapLink,
+                  label: mapLink,
+                  widget: string,
+                  required: false,
+                  default: '',
+                }
+              - {
+                  name: lat,
+                  label: latitude,
+                  widget: string,
+                  required: false,
+                  delete: false,
+                  default: '',
+                }
+              - {
+                  name: lng,
+                  label: longitude,
+                  widget: string,
+                  required: false,
+                  delete: false,
+                  default: '',
+                }
           - label: 'Meta'
             required: false
             name: 'meta'
