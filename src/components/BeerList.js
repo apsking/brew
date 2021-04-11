@@ -87,20 +87,18 @@ export default class BeerList extends Component {
               <div
                 className="BeerList--Item"
                 key={_kebabCase(beer.alt) + '-' + index}
-                tabIndex={0}
-                aria-label="Toggle BeerList"
-                role="button"
               >
                 <div>
                   <Image
                     resolutions="small"
+                    backgroundSize="fit"
                     src={beer.image}
                     alt={beer.alt}
                   />
                 </div>
-                {beer.title && <b>{beer.title}</b>}
-                {beer.abv && <span>ABV: {beer.abv}</span>}
-                {beer.ibu && <span>IBU: {beer.ibu}</span>}
+                {beer.title && <h3>{beer.title}</h3>}
+                {beer.abv && <span><b>ABV: </b>{beer.abv}%</span>}
+                {beer.ibu && <span><b>IBU: </b>{beer.ibu}</span>}
                 {beer.description && <p>{beer.description}</p>}
               </div>
             ))}

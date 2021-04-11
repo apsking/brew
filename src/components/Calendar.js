@@ -116,9 +116,9 @@ export default class Calendar extends Component {
                     alt={event.alt}
                   />
                 </div>
-                {event.title && <b>{event.title}</b>}
-                {event.date && <span>Date: {moment(event.date).format('MM-DD-YYYY')}</span>}
-                {event.time && <span>Time: {event.time}</span>}
+                {event.title && <h3>{event.title}</h3>}
+                {event.date && <span>{moment(event.date).format('dddd, MMMM DD')}</span>}
+                {event.time && <span>{event.time}</span>}
                 {event.description && <p>{event.description}</p>}
               </div>
             ))}

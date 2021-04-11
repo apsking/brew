@@ -19,12 +19,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  /* width: 25rem; */
   margin: 0;
   padding: 3rem;
-  cursor: pointer;
   text-align: center;
-  /* min-height: 50rem; */
 } 
 
 @media screen and (max-width: 750px) {
@@ -39,16 +36,18 @@
   width: 25rem;
   height: 25rem;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.BeerList--Item img {
+  width: 25rem;
+  height: 25rem;
 }
 
 .BeerList--Item .BackgroundImage {
   border-radius: 50%;
 }
-
-/* .BeerList--Item figcaption {
-  text-align: center;
-  padding: 1rem 0;
-} */
 
 /* @supports (object-fit: cover) {
   .BeerList--Item img {
