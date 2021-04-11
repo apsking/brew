@@ -36,6 +36,7 @@
   position: relative;
   width: 25rem;
   height: 25rem;
+  margin: auto;
 }
 
 .Gallery--Item figcaption {

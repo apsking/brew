@@ -8,6 +8,7 @@
   --font-primary: 'Domine', sans-serif;
   --font-system: system-ui; /* postcssPresetEnv */
   --borderRadius: 3px;
+  --backColor: #eee9e4;
 }
 
 ::-webkit-scrollbar {
@@ -37,7 +38,7 @@ body {
   font-family: var(--font-primary);
   min-height: 100%;
   position: relative;
-  background: white;
+  background: var(--backColor);
   color: var(--secondary);
   font-size: 1.6em;
   font-weight: 400;
