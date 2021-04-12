@@ -19,6 +19,7 @@ export const TapMenuPageTemplate = ({
     <main>
       <TapMenu beerlist={beerlist} />
     </main>
+
   </Fragment>
   
 )

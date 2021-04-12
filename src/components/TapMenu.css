@@ -1,23 +1,29 @@
 .TapMenu {
   position: relative;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: row;
   flex-flow: row wrap;
   justify-content: space-between;
   font-size: 1.2em;
+  background: url('/images/chalkboard.jpg');
+  color: var(--midGrey);
 }
 
 .TapMenu h2 {
   font-size: 2em;
 }
 
+.TapMenu .BackgroundImage {
+  background-repeat: repeat-y;
+}
 
 @media screen and (max-width: 750px) {
   .TapMenu {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: auto;
   }
 }
 
@@ -28,7 +34,6 @@
   margin: 0;
   padding: 3rem;
   width: 50%
-  /* text-align: center; */
 } 
 
 @media screen and (max-width: 750px) {
@@ -39,30 +44,17 @@
 
 .TapMenu--Item > div {
   position: relative;
-  /* width: 25rem; */
-  /* height: 25rem; */
-  /* border-radius: 50%; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
-.TapMenu--Item img {
-  /* width: 25rem; */
-  /* height: 25rem; */
+.TapMenu--Item--Title {
+  color: whitesmoke
 }
 
-.TapMenu--Item .BackgroundImage {
-  border-radius: 50%;
+.TapMenu--Item--Price {
+  color: whitesmoke
 }
 
-/* @supports (object-fit: cover) {
-  .TapMenu--Item img {
-    position: relative;
-    object-fit: cover;
-    object-position: center;
-    height: 100%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 50%;
-  }
-}*/
+.TapMenu--Footer {
+  text-align: center;
+  width: 100%;
+}
