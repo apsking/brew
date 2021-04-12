@@ -137,13 +137,13 @@ collections: # A list of collections the CMS should be able to edit
               - { name: image, label: Image, widget: image }
               - { name: type, label: Type, widget: string }
               - { name: alt, label: Alt, widget: string }
-              - { name: abv, label: ABV, widget: string }
-              - { name: ibu, label: IBU, widget: string }
+              - { name: abv, label: ABV, widget: number, min: 0, value_type: float, step: 0.1 }
+              - { name: ibu, label: IBU, widget: number, min: 0 }
               - { name: description, label: Description, widget: string }
-              - { name: pourOz, label: Single Pour oz., widget: number }
-              - { name: pourPrice, label: Single Pour Price, widget: number}
-              - { name: crowlerPrice, label: Crowler Price, widget: number, required: false }
-              - { name: growlerPrice, label: Growler Price, widget: number, required: false }
+              - { name: pourOz, label: Single Pour oz., widget: number, min: 0 }
+              - { name: pourPrice, label: Single Pour Price, widget: number, min: 0}
+              - { name: crowlerPrice, label: Crowler Price, widget: number, required: false, min: 0, value_type: float, step: 0.01 }
+              - { name: growlerPrice, label: Growler Price, widget: number, required: false, min: 0, value_type: float, step: 0.01 }
           - label: 'Meta'
             required: false
             name: 'meta'

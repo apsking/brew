@@ -11,8 +11,8 @@ beerlist:
     alt: Cali Blonde Beer
     type: Blonde Ale
     title: Cali Blonde Beer
-    abv: "5.2"
-    ibu: "18"
+    abv: 5.2
+    ibu: 5.2
     description: Cali Blonde description
     pourOz: 16
     pourPrice: 6.5
@@ -22,8 +22,8 @@ beerlist:
     alt: Last Nights Haze
     type: IPA
     title: Last Nights Haze
-    abv: "6.2"
-    ibu: "20"
+    abv: 6.2
+    ibu: 20
     description: Last Nights Haze description
     pourOz: 16
     pourPrice: 6.5
@@ -33,16 +33,16 @@ beerlist:
     alt: Big Booze Verdot
     type: IIPA
     title: Big Booze Verdot
-    abv: "9.7"
-    ibu: "50"
+    abv: 9.7
+    ibu: 50
     description: Big Booze Verdot description
     pourOz: 13
     pourPrice: 6.5
   - alt: Temple of the Hop
     type: Fresh Hop IPA
     title: Temple of the Hop
-    abv: "7.1"
-    ibu: "73"
+    abv: 7.1
+    ibu: 73
     image: https://ucarecdn.com/aa110474-1c77-4bd0-8c70-1647e318d073/
     description: Temple of the Hop description
     pourOz: 14
@@ -53,8 +53,8 @@ beerlist:
     alt: Paso Robles Porter
     type: Porter
     title: Paso Robles Porter
-    abv: "6.3"
-    ibu: "20"
+    abv: 6.3
+    ibu: 20
     description: Paso Robles Porter description
     pourOz: 14
     pourPrice: 6.5
@@ -63,8 +63,8 @@ beerlist:
     alt: Big Booze Bully
     type: Imperial Stout
     title: Big Booze Bully
-    abv: "9.9"
-    ibu: "50"
+    abv: 9.9
+    ibu: 50
     description: Big Booze Bully description
     pourOz: 13
     pourPrice: 6.5
