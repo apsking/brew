@@ -21,6 +21,7 @@ export const query = graphql`
         pourPrice
         crowlerPrice
         growlerPrice
+        isMenuHidden
       }
     }
   }
@@ -90,11 +91,14 @@ export default class TapMenu extends Component {
 
   render() {
     const { beerlist } = this.props
+
+    const beers = beerlist.filter(beer => !beer.isMenuHidden)
+
     return (
       <Fragment>
         <div className="TapMenu">
-          {beerlist && beerlist.length > 0 && (
-            beerlist.map((beer, index) => (
+          {beerlist && beers.length > 0 && (
+            beers.map((beer, index) => (
               <div
                 className="TapMenu--Item"
                 key={_kebabCase(beer.alt) + '-' + index}

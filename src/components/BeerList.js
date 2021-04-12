@@ -17,6 +17,7 @@ export const query = graphql`
         abv
         ibu
         description
+        isWebsiteHidden
       }
     }
   }
@@ -79,11 +80,14 @@ export default class BeerList extends Component {
 
   render() {
     const { beerlist } = this.props
+
+    const beers = beerlist.filter(beer => !beer.isWebsiteHidden);
+
     return (
       <Fragment>
-        {beerlist && beerlist.length > 0 && (
+        {beerlist && beers.length > 0 && (
           <div className="BeerList">
-            {beerlist.map((beer, index) => (
+            {beers.map((beer, index) => (
               <div
                 className="BeerList--Item"
                 key={_kebabCase(beer.alt) + '-' + index}

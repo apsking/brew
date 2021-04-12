@@ -18,6 +18,8 @@ beerlist:
     pourPrice: 6.5
     crowlerPrice: 17
     growlerPrice: 23
+    isMenuHidden: false
+    isWebsiteHidden: false
   - image: https://ucarecdn.com/b0ca221b-3748-49d3-a851-f657729351a2/
     alt: Last Nights Haze
     type: IPA
@@ -29,6 +31,8 @@ beerlist:
     pourPrice: 6.5
     crowlerPrice: 16
     growlerPrice: 19
+    isMenuHidden: false
+    isWebsiteHidden: false
   - image: https://ucarecdn.com/0a0e4bcd-df91-486d-b0a3-0ac3f2d3842b/
     alt: Big Booze Verdot
     type: IIPA
@@ -38,6 +42,8 @@ beerlist:
     description: Big Booze Verdot description
     pourOz: 13
     pourPrice: 6.5
+    isMenuHidden: false
+    isWebsiteHidden: false
   - alt: Temple of the Hop
     type: Fresh Hop IPA
     title: Temple of the Hop
@@ -49,6 +55,8 @@ beerlist:
     pourPrice: 7.5
     crowlerPrice: 13
     growlerPrice: 23.5
+    isMenuHidden: false
+    isWebsiteHidden: false
   - image: https://ucarecdn.com/8ac1ef46-79d5-4893-ac3a-883288aa2d18/
     alt: Paso Robles Porter
     type: Porter
@@ -59,6 +67,8 @@ beerlist:
     pourOz: 14
     pourPrice: 6.5
     growlerPrice: 19
+    isMenuHidden: false
+    isWebsiteHidden: false
   - image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
     alt: Big Booze Bully
     type: Imperial Stout
@@ -69,4 +79,6 @@ beerlist:
     pourOz: 13
     pourPrice: 6.5
     crowlerPrice: 16
+    isMenuHidden: false
+    isWebsiteHidden: false
 ---
