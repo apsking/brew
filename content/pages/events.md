@@ -3,9 +3,7 @@ template: EventsPage
 slug: events
 title: Events
 featuredImage: https://ucarecdn.com/f7d8a35c-4404-4565-b9d8-3cb466631f12/-/crop/1723x1008/677,0/-/preview/
-section1: Featuring a 10-barrel system, we specialize in classic American ales
-  and lagers along with Belgian-style beers. There is a beer for everyone -
-  whether you prefer light, hoppy, fruity, malted, or sweet.
+section1: We have regular scheduled events for all of our customers! Enjoy!
 calendar:
   - image: https://ucarecdn.com/20828d39-41d8-4a28-b6de-9896e138ea01/
     alt: Super Awesome Band
