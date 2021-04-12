@@ -135,10 +135,15 @@ collections: # A list of collections the CMS should be able to edit
             fields:
               - { name: title, label: Title, widget: string }
               - { name: image, label: Image, widget: image }
+              - { name: type, label: Type, widget: string }
               - { name: alt, label: Alt, widget: string }
               - { name: abv, label: ABV, widget: string }
               - { name: ibu, label: IBU, widget: string }
               - { name: description, label: Description, widget: string }
+              - { name: pourOz, label: Single Pour oz., widget: number }
+              - { name: pourPrice, label: Single Pour Price, widget: number}
+              - { name: crowlerPrice, label: Crowler Price, widget: number, required: false }
+              - { name: growlerPrice, label: Growler Price, widget: number, required: false }
           - label: 'Meta'
             required: false
             name: 'meta'
