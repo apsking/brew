@@ -8,7 +8,7 @@ meta:
   title: Earth and Fire Brewing
 ---
 
-Welcome to Earth and Fire, where we make great beer happen.
+Welcome to Earth and Fire, where we make great beer happen. We are excited to have you!
 
 # HOURS
 Open
