@@ -16,8 +16,10 @@ beerlist:
   - alt: ''
     image: ''
     title: ''
-    abv: ''
-    ibu: ''
+    abv: 0
+    ibu: 0
+    pourOz: 0
+    pourPrice: 0
     description: ''
 ---
 
