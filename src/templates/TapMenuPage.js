@@ -17,7 +17,7 @@ export const TapMenuPageTemplate = ({
       {/* Add font link tags here */}
     </Helmet>
     <main>
-          <TapMenu beerlist={beerlist} />
+      <TapMenu beerlist={beerlist} />
     </main>
   </Fragment>
   
@@ -31,7 +31,7 @@ export default TapMenuPage;
 
 export const pageQuery = graphql`
   query TapMenuPage {
-    page: markdownRemark(id: { eq: "a4af7ac3-7e83-55d9-ab04-62f0a13d661f" }) {
+    page: markdownRemark(fileAbsolutePath: { regex: "/beers.md/" }) {
       ...Meta
       ...TapMenu
       html
