@@ -39,6 +39,7 @@
   height: 50px; 
   overflow: hidden;
   position: relative;
+  white-space: nowrap;
 }
 .scroll-left div {
   position: absolute;
