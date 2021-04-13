@@ -137,13 +137,14 @@ collections: # A list of collections the CMS should be able to edit
               - { name: isMenuHidden, label: Hide on Menu, widget: boolean }
               - { name: isWebsiteHidden, label: Hide on Website, widget: boolean }
               - {
-                  name: status,
-                  label: Status,
-                  widget: select,
-                  options:
-                    - { label: "Current", value: "CURRENT" }
-                    - { label: "Archived", value: "ARCHIVED" }
-                    - { label: "Upcoming", value: "UPCOMING" }
+                  name: "status",
+                  label: "Status",
+                  widget: "select",
+                  options: [
+                    { label: "Current", value: "CURRENT" },
+                    { label: "Archived", value: "ARCHIVED" },
+                    { label: "Upcoming", value: "UPCOMING" }
+                  ]
                 }
               - { name: image, label: Image, widget: image }
               - { name: type, label: Type, widget: string }
