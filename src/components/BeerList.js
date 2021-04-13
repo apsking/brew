@@ -18,6 +18,7 @@ export const query = graphql`
         ibu
         description
         isWebsiteHidden
+        status
       }
     }
   }

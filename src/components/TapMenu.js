@@ -13,6 +13,7 @@ export const query = graphql`
       beerlist {
         alt
         type
+        status
         image
         title
         abv
@@ -93,7 +94,9 @@ export default class TapMenu extends Component {
   render() {
     const { beerlist } = this.props
 
-    const beers = beerlist.filter(beer => !beer.isMenuHidden)
+    const beers = beerlist
+      .filter(beer => !beer.isMenuHidden)
+      .filter(beer => beer.status === 'CURRENT')
 
     return (
       <Fragment>
