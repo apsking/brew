@@ -12,6 +12,8 @@ Welcome to Earth and Fire, where we make great beer happen. We are excited to ha
 # HOURS
 
 Open
+
+
 Friday
 3PM to 8PM
 
