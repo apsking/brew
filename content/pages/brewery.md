@@ -13,9 +13,8 @@ video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
 videoPoster: https://ucarecdn.com/0ad166f7-39fd-4c7e-8427-b522b103ab42/
 videoTitle: " "
 gallery:
-  - alt: Earth and Fire lounge with chairs around barrel tables
-    image: https://ucarecdn.com/4cb0bc2d-ced7-4477-9a00-ec912cc0a270/-/preview/-/enhance/19/
-    title: ""
+  - image: https://ucarecdn.com/adef51ea-b99f-4c09-93b5-1e28be9aedea/
+    alt: Red Sign
   - alt: Man smelling beer. Beer glass against beer barrel backdrop
     image: https://ucarecdn.com/79b89cbe-8b16-4960-8f9f-b16093aa9483/
     title: ""
