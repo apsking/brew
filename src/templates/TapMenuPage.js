@@ -6,7 +6,8 @@ import TapMenu from '../components/TapMenu'
 
 // Export Template for use in CMS preview
 export const TapMenuPageTemplate = ({
-  beerlist
+  beerlist,
+  menuMessage
 }) => (
   <Fragment>
     <Helmet>
@@ -17,7 +18,7 @@ export const TapMenuPageTemplate = ({
       {/* Add font link tags here */}
     </Helmet>
     <main>
-      <TapMenu beerlist={beerlist} />
+      <TapMenu beerlist={beerlist} menuMessage={menuMessage} />
     </main>
   </Fragment>
 )

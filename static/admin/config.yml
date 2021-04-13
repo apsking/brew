@@ -129,6 +129,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: Subtitle, name: subtitle, widget: markdown, required: false }
           - { label: Section 1, name: section1, widget: markdown }
           - { label: Section 2, name: section2, widget: markdown, required: false }
+          - { label: Menu scroll message, name: menuMessage, widget: markdown }
           - label: 'BeerList'
             name: 'beerlist'
             widget: 'list'

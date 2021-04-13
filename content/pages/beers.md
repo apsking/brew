@@ -6,6 +6,7 @@ featuredImage: https://ucarecdn.com/928e2f02-a229-42da-9134-a3951d86734b/-/crop/
 section1: Featuring a 10-barrel system, we specialize in classic American ales
   and lagers along with Belgian-style beers. There is a beer for everyone -
   whether you prefer light, hoppy, fruity, malted, or sweet.
+menuMessage: Follow us at @earthandfirebrewing!
 beerlist:
   - image: https://ucarecdn.com/afd91e8c-556c-4842-a447-b0515968df73/
     alt: Cali Blonde Beer

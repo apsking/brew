@@ -9,6 +9,7 @@ import './TapMenu.css'
 export const query = graphql`
   fragment TapMenu on MarkdownRemark {
     frontmatter {
+      menuMessage
       beerlist {
         alt
         type
@@ -91,7 +92,8 @@ export default class TapMenu extends Component {
   }
 
   render() {
-    const { beerlist } = this.props
+    const { beerlist, menuMessage } = this.props
+    console.log(this.props)
 
     const beers = beerlist
       .filter(beer => !beer.isMenuHidden)
@@ -100,12 +102,6 @@ export default class TapMenu extends Component {
     return (
       <Fragment>
         <div className="TapMenu">
-        {/* <Image
-          background
-          resolutions="large"
-          src={"/images/chalkboard.jpeg"}
-          size="fit"
-        /> */}
           {beerlist && beers.length > 0 && (
             beers.map((beer, index) => (
               <div
@@ -122,12 +118,11 @@ export default class TapMenu extends Component {
               </div>
             ))
         )}
-        <div className="TapMenu--Footer">
-        <h2 className="taCenter">
-            Follow us{' '}
-            <a href="https://instagram.com/earthandfirebrewing/">@earthandfirebrewing</a>
-          </h2>
-        </div>
+          <div className="TapMenu--Footer scroll-left">
+            <h2 className="taCenter">
+              {menuMessage}
+            </h2>
+          </div>
         </div>
         
       </Fragment>
@@ -136,5 +131,6 @@ export default class TapMenu extends Component {
 }
 
 TapMenu.propTypes = {
-  beerlist: PropTypes.array.isRequired
+  beerlist: PropTypes.array.isRequired,
+  menuMessage: PropTypes.string.isRequired
 }
