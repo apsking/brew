@@ -8,13 +8,11 @@ section1: >-
   ## Neighborhood Nano Brewery
 
   Specializing in a variety of unfiltered craft beers from our Farm House Ale’s, Double IPA’s to our Chocolate Stout. 
-section2: " "
+section2: ""
 video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
 videoPoster: https://ucarecdn.com/0ad166f7-39fd-4c7e-8427-b522b103ab42/
 videoTitle: " "
 gallery:
-  - image: https://ucarecdn.com/e6709f69-ae6e-41f8-a10b-1b1d73de047e/-/preview/-/enhance/50/
-    alt: Group of people celebrating behind bar with beers on bar
   - alt: Earth and Fire lounge with chairs around barrel tables
     image: https://ucarecdn.com/4cb0bc2d-ced7-4477-9a00-ec912cc0a270/-/preview/-/enhance/19/
     title: ""
@@ -32,6 +30,8 @@ gallery:
     alt: '"Earth" on a wall mural'
   - image: https://ucarecdn.com/71860aa4-9de8-418a-8ffc-926e25e382b1/-/preview/-/enhance/50/
     alt: Beer, growler, and football on top of barrel table
+  - image: https://ucarecdn.com/10174385-71e1-4eaf-80b5-c909a99de52c/
+    alt: glass of beer
 meta:
   description: This is a meta description.
   title: The Brewery
