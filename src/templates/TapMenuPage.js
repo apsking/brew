@@ -34,6 +34,9 @@ export const pageQuery = graphql`
     page: markdownRemark(fileAbsolutePath: { regex: "/beers.md/" }) {
       ...Meta
       ...TapMenu
+      frontmatter {
+        menuMessage
+      }
       html
     }
   }

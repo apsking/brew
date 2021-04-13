@@ -14,6 +14,10 @@
   }
 }
 
+.TapMenu a {
+  text-decoration: none;
+}
+
 .TapMenu--Item > div {
   position: relative;
 }
@@ -36,7 +40,7 @@
   overflow: hidden;
   position: relative;
 }
-.scroll-left h2 {
+.scroll-left div {
   position: absolute;
   width: 100%;
   height: 100%;

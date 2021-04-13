@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
+import Content from '../components/Content'
 
 import _kebabCase from 'lodash/kebabCase'
 
@@ -9,7 +10,6 @@ import './TapMenu.css'
 export const query = graphql`
   fragment TapMenu on MarkdownRemark {
     frontmatter {
-      menuMessage
       beerlist {
         alt
         type
@@ -119,9 +119,7 @@ export default class TapMenu extends Component {
             ))
         )}
           <div className="TapMenu--Footer scroll-left">
-            <h2 className="taCenter">
-              {menuMessage}
-            </h2>
+            <Content source={menuMessage} />
           </div>
         </div>
         
