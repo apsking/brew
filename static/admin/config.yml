@@ -140,7 +140,7 @@ collections: # A list of collections the CMS should be able to edit
                   name: status,
                   label: Status,
                   widget: select,
-                  options: 
+                  options:
                     - { label: "Current", value: "CURRENT" }
                     - { label: "Archived", value: "ARCHIVED" }
                     - { label: "Upcoming", value: "UPCOMING" }
