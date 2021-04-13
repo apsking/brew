@@ -1,44 +1,16 @@
 .TapMenu {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  font-size: 1.6em;
   background: url('/images/chalkboard.jpg');
+  background-repeat: repeat;
+  background-attachment:fixed;
+  padding: 3rem;
   color: var(--midGrey);
-}
-
-.TapMenu h2 {
-  font-size: 2em;
-}
-
-.TapMenu .BackgroundImage {
-  background-repeat: repeat-y;
+  font-size: 1.5em;
+  min-height: 100vh;
 }
 
 @media screen and (max-width: 750px) {
   .TapMenu {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
-  }
-}
-
-.TapMenu--Item {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 3rem;
-  width: 50%
-} 
-
-@media screen and (max-width: 750px) {
-  .TapMenu--Item {
-    width: 100%;
+    font-size: 1.2em;
   }
 }
 

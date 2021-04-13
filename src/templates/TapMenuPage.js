@@ -19,9 +19,7 @@ export const TapMenuPageTemplate = ({
     <main>
       <TapMenu beerlist={beerlist} />
     </main>
-
   </Fragment>
-  
 )
 
 const TapMenuPage = ({ data: { page } }) => (
