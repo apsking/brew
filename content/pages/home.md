@@ -9,16 +9,10 @@ meta:
 ---
 Welcome to Earth and Fire, where we make great beer happen. We are excited to have you!
 
-# HOURS
+# Opening Hours
 
-Open
+**Friday:** 3-7PM
 
+**Saturday:** 12-9PM
 
-Friday
-3PM to 8PM
-
-Saturday
-12PM to 7PM
-
-Sunday
-12PM to 6PM
+**Sunday:** 12-6PM
