@@ -13,6 +13,6 @@ Welcome to Earth and Fire, where we make great beer happen. We are excited to ha
 
 **Friday:** 3-7PM
 
-**Saturday:** 12-9PM
+**Saturday:** 12-6PM
 
-**Sunday:** 12-6PM
+**Sunday:** 12-5PM
