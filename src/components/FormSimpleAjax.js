@@ -137,14 +137,16 @@ class Form extends React.Component {
             />
             <span>Get news updates</span>
           </label>
-          <div
+          {/* <div
             className="g-recaptcha"
             data-sitekey="6LezB6kaAAAAAMp8VpZ4JYyKEpeQJjkwDEu5k0iU"
-          />
+          /> */}
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
-            className="Button Form--SubmitButton"
+            className="Button Form--SubmitButton g-recaptcha"
+            data-sitekey="6LezB6kaAAAAAMp8VpZ4JYyKEpeQJjkwDEu5k0iU"
+            data-callback='onSubmit'
             type="submit"
             value="Enquire"
             disabled={this.state.disabled}
