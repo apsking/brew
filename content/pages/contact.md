@@ -15,12 +15,12 @@ meta:
   description: ""
   title: Contact
 ---
-
 # Opening Hours
+
 **Friday:** 3-7PM
 
-**Saturday:** 12-9PM
+**Saturday:** 12-6PM
 
-**Sunday:** 12-6PM
+**Sunday:** 12-5PM
 
 For all other information, give us a call or enquire in this form!
