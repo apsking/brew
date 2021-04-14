@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
+import Recaptcha from 'react-google-invisible-recaptcha'
 
 import './Form.css'
 
@@ -26,6 +27,8 @@ class Form extends React.Component {
 
     const form = e.target
     const data = serialize(form)
+    // eslint-disable-next-line
+    data["g-recaptcha-response"] = this.recaptcha.getResponse()
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
@@ -65,7 +68,7 @@ class Form extends React.Component {
           className="Form"
           name={name}
           action={action}
-          onSubmit={this.handleSubmit}
+          onSubmit={(e) => {e.preventDefault(); this.recaptcha.execute()}}
           data-netlify="true"
           data-netlify-recaptcha="true"
         >
@@ -137,16 +140,17 @@ class Form extends React.Component {
             />
             <span>Get news updates</span>
           </label>
-          {/* <div
-            className="g-recaptcha"
-            data-sitekey="6LezB6kaAAAAAMp8VpZ4JYyKEpeQJjkwDEu5k0iU"
-          /> */}
+
+          <Recaptcha
+            data-netlify-recaptcha="true"
+            ref={ ref => this.recaptcha = ref }
+            sitekey="6LezB6kaAAAAAMp8VpZ4JYyKEpeQJjkwDEu5k0iU"
+            onResolved={ this.handleSubmit } />
+
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
           <input
-            className="Button Form--SubmitButton g-recaptcha"
-            data-sitekey="6LezB6kaAAAAAMp8VpZ4JYyKEpeQJjkwDEu5k0iU"
-            data-callback='onSubmit'
+            className="Button Form--SubmitButton"
             type="submit"
             value="Enquire"
             disabled={this.state.disabled}
