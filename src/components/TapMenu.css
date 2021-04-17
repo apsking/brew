@@ -3,7 +3,7 @@
   background-repeat: repeat;
   background-attachment:fixed;
   color: var(--midGrey);
-  font-size: 2.1em;
+  font-size: 1.8em;
   min-height: 100vh;
 }
 
@@ -26,6 +26,7 @@
 .TapMenu--Title {
   color: var(--primary);
   text-align: center;
+  margin-bottom: 0;
 }
 
 .TapMenu--WebsiteLink svg {
@@ -70,6 +71,7 @@
   width: 40px;
   margin-top: 1px;
   display: inline-block;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 750px) {

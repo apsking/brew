@@ -116,7 +116,8 @@ export default class TapMenu extends Component {
                 >
                   <h2 className="TapMenu--Item--Title">{index + 1}. {beer.title}</h2>
                   <div>
-                    {beer.type} - {beer.abv}% ABV - {beer.ibu} IBU -{" "}
+                    {beer.type} - {beer.abv}% ABV -{" "}
+                    {beer.ibu && <span>{beer.ibu} IBU - </span>}
                     {beer.pourOz}oz <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.pourPrice)}</b>{" "}
                     {beer.crowlerPrice && <span> - 32oz Crowler <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.crowlerPrice)}</b></span>}
                     {beer.growlerPrice && <span> - 64oz Growler <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.growlerPrice)}</b></span>}
