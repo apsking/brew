@@ -71,11 +71,11 @@
   width: 40px;
   margin-top: 1px;
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: -5px;
 }
 
 @media screen and (max-width: 750px) {
-  .TapMenu--Container .Content--Image, .Content img {
+  .TapMenu--Footer .Content--Image {
     display: inline-block;
     margin-bottom: -1rem;
   }
