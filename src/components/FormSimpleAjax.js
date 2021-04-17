@@ -71,6 +71,7 @@ class Form extends React.Component {
           // onSubmit={(e) => {e.preventDefault(); this.recaptcha.execute()}}
           onSubmit={this.handleSubmit}
           data-netlify="true"
+          netlify-honeypot="name"
           // data-netlify-recaptcha="true"
         >
           {this.state.alert && (
@@ -141,7 +142,10 @@ class Form extends React.Component {
             />
             <span>Get news updates</span>
           </label>
-
+          <label className="Form--NotHuman">
+            Don’t fill this out if you’re human: 
+            <input name="name" />
+          </label>
           {/* <Recaptcha
             data-netlify-recaptcha="true"
             ref={ ref => this.recaptcha = ref }

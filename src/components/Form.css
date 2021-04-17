@@ -59,6 +59,10 @@
   background: transparent;
 }
 
+.Form--NotHuman {
+  display: none;
+}
+
 .Form--InputText:valid,
 .Form--InputText:invalid:not(:empty),
 .Form--InputText:active,
