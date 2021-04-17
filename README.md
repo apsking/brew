@@ -75,3 +75,4 @@ For more details see the [Netlify CMS Docs](https://www.netlifycms.org/docs/uplo
 ## Attribution:
 * Pouring beer - https://www.pexels.com/video/pouring-beer-into-a-glass-2356468/
 * Netlify theme - https://github.com/thriveweb/yellowcake
+* Facebook, Instagram, Twitter base64 logos - https://www.iconfinder.com/search/?q=instagram

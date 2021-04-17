@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Content from '../components/Content'
+import { ArrowLeft } from 'react-feather'
 
 import _kebabCase from 'lodash/kebabCase'
 
@@ -102,22 +103,29 @@ export default class TapMenu extends Component {
     return (
       <Fragment>
         <div className="TapMenu">
-          {beerlist && beers.length > 0 && (
-            beers.map((beer, index) => (
-              <div
-                className="TapMenu--Item"
-                key={_kebabCase(beer.alt) + '-' + index}
-              >
-                <h2 className="TapMenu--Item--Title">{index + 1}. {beer.title}</h2>
-                <div>
-                  {beer.type} - {beer.abv}% ABV - {beer.ibu} IBU -{" "}
-                  {beer.pourOz}oz <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.pourPrice)}</b>{" "}
-                  {beer.crowlerPrice && <span> - 32oz Crowler <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.crowlerPrice)}</b></span>}
-                  {beer.growlerPrice && <span> - 64oz Growler <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.growlerPrice)}</b></span>}
-                  </div>
-              </div>
-            ))
-        )}
+          <div className="TapMenu--Container">
+            <h1 className="TapMenu--Title">Earth and Fire Brewing Company</h1>
+            <h3 className="TapMenu--WebsiteLink">
+              
+              <a href="/"><ArrowLeft/> back to website</a>
+            </h3>
+            {beerlist && beers.length > 0 && (
+              beers.map((beer, index) => (
+                <div
+                  className="TapMenu--Item"
+                  key={_kebabCase(beer.alt) + '-' + index}
+                >
+                  <h2 className="TapMenu--Item--Title">{index + 1}. {beer.title}</h2>
+                  <div>
+                    {beer.type} - {beer.abv}% ABV - {beer.ibu} IBU -{" "}
+                    {beer.pourOz}oz <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.pourPrice)}</b>{" "}
+                    {beer.crowlerPrice && <span> - 32oz Crowler <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.crowlerPrice)}</b></span>}
+                    {beer.growlerPrice && <span> - 64oz Growler <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.growlerPrice)}</b></span>}
+                    </div>
+                </div>
+              ))
+          )}
+          </div>
           <div className="TapMenu--Footer scroll-left">
             <Content source={menuMessage} />
           </div>

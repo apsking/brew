@@ -2,15 +2,43 @@
   background: url('/images/chalkboard.jpg');
   background-repeat: repeat;
   background-attachment:fixed;
-  padding: 3rem;
   color: var(--midGrey);
-  font-size: 1.5em;
+  font-size: 2.1em;
   min-height: 100vh;
 }
 
 @media screen and (max-width: 750px) {
   .TapMenu {
     font-size: 1.2em;
+  }
+}
+
+.TapMenu--Container {
+  padding: 3rem 10rem;
+}
+
+@media screen and (max-width: 750px) {
+  .TapMenu--Container {
+    padding: 3rem 3rem;
+  }
+}
+
+.TapMenu--Title {
+  color: var(--primary);
+  text-align: center;
+}
+
+.TapMenu--WebsiteLink svg {
+  margin-bottom: -5px;
+}
+
+.TapMenu .TapMenu--WebsiteLink a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 751px) {
+  .TapMenu--WebsiteLink {
+    display: none;
   }
 }
 
@@ -23,7 +51,8 @@
 }
 
 .TapMenu--Item--Title {
-  color: whitesmoke
+  color: whitesmoke;
+  margin: 0;
 }
 
 .TapMenu--Item--Price {
@@ -33,6 +62,19 @@
 .TapMenu--Footer {
   text-align: center;
   width: 100%;
+}
+
+.TapMenu--Footer .Content--Image {
+  height: 40px;
+  width: 40px;
+  margin-top: 1px
+}
+
+@media screen and (max-width: 750px) {
+  .TapMenu--Container .Content--Image, .Content img {
+    display: inline-block;
+    margin-bottom: -1rem;
+  }
 }
 
 .scroll-left {
