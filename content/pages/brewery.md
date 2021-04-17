@@ -7,7 +7,8 @@ subtitle: ""
 section1: >-
   ## Neighborhood Nano Brewery
 
-  Specializing in a variety of unfiltered craft beers from our Farm House Ale’s, Double IPA’s to our Chocolate Stout. 
+
+  Specializing in a variety of unfiltered craft beers from our IPA’s, Double IPA’s to our Chocolate Stout.
 section2: ""
 video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
 videoPoster: https://ucarecdn.com/0ad166f7-39fd-4c7e-8427-b522b103ab42/
