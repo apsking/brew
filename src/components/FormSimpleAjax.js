@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 import { stringify } from 'qs'
 import { serialize } from 'dom-form-serializer'
-import Recaptcha from 'react-google-invisible-recaptcha'
+// import Recaptcha from 'react-google-invisible-recaptcha'
 
 import './Form.css'
 
@@ -28,7 +28,7 @@ class Form extends React.Component {
     const form = e.target
     const data = serialize(form)
     // eslint-disable-next-line
-    data["g-recaptcha-response"] = this.recaptcha.getResponse()
+    // data["g-recaptcha-response"] = this.recaptcha.getResponse()
     this.setState({ disabled: true })
     fetch(form.action + '?' + stringify(data), {
       method: 'POST'
@@ -62,15 +62,16 @@ class Form extends React.Component {
     return (
       <Fragment>
         <Helmet>
-          <script src="https://www.google.com/recaptcha/api.js" />
+          {/* <script src="https://www.google.com/recaptcha/api.js" /> */}
         </Helmet>
         <form
           className="Form"
           name={name}
           action={action}
-          onSubmit={(e) => {e.preventDefault(); this.recaptcha.execute()}}
+          // onSubmit={(e) => {e.preventDefault(); this.recaptcha.execute()}}
+          onSubmit={this.handleSubmit}
           data-netlify="true"
-          data-netlify-recaptcha="true"
+          // data-netlify-recaptcha="true"
         >
           {this.state.alert && (
             <div className="Form--Alert">{this.state.alert}</div>
@@ -141,11 +142,11 @@ class Form extends React.Component {
             <span>Get news updates</span>
           </label>
 
-          <Recaptcha
+          {/* <Recaptcha
             data-netlify-recaptcha="true"
             ref={ ref => this.recaptcha = ref }
             sitekey="6LezB6kaAAAAAMp8VpZ4JYyKEpeQJjkwDEu5k0iU"
-            onResolved={ this.handleSubmit } />
+            onResolved={ this.handleSubmit } /> */}
 
           {!!subject && <input type="hidden" name="subject" value={subject} />}
           <input type="hidden" name="form-name" value={name} />
