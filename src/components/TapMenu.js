@@ -106,7 +106,6 @@ export default class TapMenu extends Component {
           <div className="TapMenu--Container">
             <h1 className="TapMenu--Title">Earth and Fire Brewing Company</h1>
             <h3 className="TapMenu--WebsiteLink">
-              
               <a href="/"><ArrowLeft/> back to website</a>
             </h3>
             {beerlist && beers.length > 0 && (
