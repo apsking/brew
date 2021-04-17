@@ -14,7 +14,6 @@ beerlist:
     title: Cali Blonde Beer
     abv: 5.2
     ibu: 18
-    description: Cali Blonde description
     pourOz: 16
     pourPrice: 6.5
     crowlerPrice: 15
@@ -28,7 +27,6 @@ beerlist:
     title: Paso Robles Porter
     abv: 6.5
     ibu: 33
-    description: Paso Robles Porter description
     pourOz: 16
     pourPrice: 7.5
     crowlerPrice: 15
@@ -42,7 +40,6 @@ beerlist:
     title: Golden Stout
     abv: 9
     ibu: 34
-    description: Golden Stout description
     pourOz: 13
     pourPrice: 7.5
     crowlerPrice: 15
@@ -56,7 +53,6 @@ beerlist:
     abv: 7.1
     ibu: 73
     image: https://ucarecdn.com/aa110474-1c77-4bd0-8c70-1647e318d073/
-    description: Temple of the Hop description
     pourOz: 16
     pourPrice: 7.5
     crowlerPrice: 15
@@ -70,7 +66,6 @@ beerlist:
     title: Irish Red
     abv: 5.1
     ibu: 24
-    description: Irish Red description
     pourOz: 16
     pourPrice: 6.5
     crowlerPrice: 15
@@ -84,7 +79,6 @@ beerlist:
     title: Big Booze Verdot
     abv: 9.7
     ibu: 50
-    description: Irish Red description
     pourOz: 13
     pourPrice: 8.5
     crowlerPrice: 18
@@ -96,7 +90,6 @@ beerlist:
     type: Hard Seltzer
     title: Pick Your Favorite Seltzer!
     abv: 4.8
-    description: Pick Your Favorite Seltzer! description
     pourOz: 16
     pourPrice: 6.5
     crowlerPrice: 15
@@ -109,7 +102,6 @@ beerlist:
     title: Upcoming Beer
     abv: 9.9
     ibu: 50
-    description: Upcoming Beer description
     pourOz: 13
     pourPrice: 6.5
     crowlerPrice: 16
@@ -122,7 +114,6 @@ beerlist:
     title: Archived Beer
     abv: 9.9
     ibu: 50
-    description: Archived Beer description
     pourOz: 13
     pourPrice: 6.5
     crowlerPrice: 16
@@ -135,7 +126,6 @@ beerlist:
     title: Last Nights Haze
     abv: 6.2
     ibu: 20
-    description: Last Nights Haze description
     pourOz: 16
     pourPrice: 6.5
     crowlerPrice: 16
