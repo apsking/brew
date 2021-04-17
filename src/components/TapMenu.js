@@ -115,7 +115,7 @@ export default class TapMenu extends Component {
                   key={_kebabCase(beer.alt) + '-' + index}
                 >
                   <h2 className="TapMenu--Item--Title">{index + 1}. {beer.title}</h2>
-                  <div>
+                  <div className="TapMenu--Item--Details">
                     {beer.type} - {beer.abv}% ABV -{" "}
                     {beer.ibu && <span>{beer.ibu} IBU - </span>}
                     {beer.pourOz}oz <b className="TapMenu--Item--Price">{CURRENCY_FORMATTER.format(beer.pourPrice)}</b>{" "}
