@@ -32,6 +32,8 @@ gallery:
     alt: Beer, growler, and football on top of barrel table
   - image: https://ucarecdn.com/10174385-71e1-4eaf-80b5-c909a99de52c/
     alt: glass of beer
+  - image: https://ucarecdn.com/4cf3da2e-6bb2-4469-9ded-407f546bd6e3/
+    alt: Jenga
 meta:
   description: This is a meta description.
   title: The Brewery
