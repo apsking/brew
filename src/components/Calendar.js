@@ -121,9 +121,11 @@ export default class Calendar extends Component {
             ))}
           </div>
         )}
-        {upcomingEvents.length === 0 && <div>
+        {upcomingEvents.length === 0 && (
+          <div className="Calendar">
             <h2>There are no upcoming events. Check back later!</h2>
-          </div>}
+          </div>
+        )}
       </Fragment>
     )
   }
