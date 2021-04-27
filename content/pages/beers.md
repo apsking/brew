@@ -253,9 +253,9 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/41ad2619-6c35-4a11-a1ae-ae7e72cb0fa9/
     ibu: 20
-    description: Starts fresh with a taste of pineapple,, then blends into a full
-      mouth flavor with slight creamy notes.  End round and smooth with just a
-      slight bite. Not your usual IPA
+    description: Starts fresh with a taste of pineapple, then blends into a full
+      mouth flavor with slight creamy notes. Ends round and smooth with just a
+      slight bite. Not your usual IPA!
   - crowlerPrice: 16
     pourOz: 13
     alt: Upcoming Beer
