@@ -151,7 +151,7 @@ collections: # A list of collections the CMS should be able to edit
               - { name: type, label: Type, widget: string }
               - { name: alt, label: Alt, widget: string }
               - { name: abv, label: ABV, widget: number, min: 0, value_type: float, step: 0.1 }
-              - { name: ibu, label: IBU, widget: number, min: 0 }
+              - { name: ibu, label: IBU, widget: number, min: 0, required: false }
               - { name: description, label: Description, widget: string }
               - { name: pourOz, label: Single Pour oz., widget: number, min: 0 }
               - { name: pourPrice, label: Single Pour Price, widget: number, min: 0}
