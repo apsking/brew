@@ -3,9 +3,9 @@ template: BeersPage
 slug: beers
 title: The Beer
 featuredImage: https://ucarecdn.com/928e2f02-a229-42da-9134-a3951d86734b/-/crop/1970x1367/18,233/-/preview/
-section1: All brewed on a 100% homemade two-barrel system by Brewmaster and
+section1: All brewed on a 100% homemade, two-barrel system by Brewmaster and
   Founder, Nolan Mott. There is a beer for everyone - whether you prefer light,
-  hoppy, fruity, malted, or sweet.
+  hoppy, fruity, malted, or sweet!
 menuMessage: "## Follow us on
   ![instagram](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaX\
   HeAAASVklEQVR4XsVbCXhV1bX+971JCAmSAAkhBIXMYZYWZSiGSQiIgIAosbQgFkGl2Io+qMOjPi3\
@@ -248,7 +248,7 @@ beerlist:
     type: Hard Seltzer
     isWebsiteHidden: false
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
-    ibu: 0
+    ibu: ""
     description: seltzer
   - growlerPrice: 19
     crowlerPrice: 16
@@ -263,9 +263,9 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/41ad2619-6c35-4a11-a1ae-ae7e72cb0fa9/
     ibu: 20
-    description: Starts fresh with a taste of pineapple,, then blends into a full
+    description: Starts fresh with a taste of pineapple, then blends into a full
       mouth flavor with slight creamy notes.  End round and smooth with just a
-      slight bite. Not your usual IPA
+      slight bite. Not your usual IPA.
   - crowlerPrice: 15
     pourOz: 13
     alt: Hip-Hop Anonymous
