@@ -6,7 +6,7 @@ featuredImage: https://ucarecdn.com/f7d8a35c-4404-4565-b9d8-3cb466631f12/-/crop/
 section1: Our calendar of events is reduced as we begin to open back up to the
   allowed capacity.
 calendar:
-  - date: 2021-05-02T01:23:03.491Z
+  - date: 2021-07-03T01:23:03.491Z
     title: Cool Band
     alt: " Really  Cool Event "
     time: 6-9Pm
