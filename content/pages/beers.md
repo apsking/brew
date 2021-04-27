@@ -248,7 +248,7 @@ beerlist:
     type: Hard Seltzer
     isWebsiteHidden: false
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
-    ibu: 0
+    ibu: ""
     description: seltzer
   - growlerPrice: 19
     crowlerPrice: 16
