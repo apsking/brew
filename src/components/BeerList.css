@@ -18,6 +18,7 @@
 .BeerList--Item {
   position: relative;
   display: flex;
+  flex: 1 1;
   flex-direction: column;
   margin: 0;
   padding: 3rem;
