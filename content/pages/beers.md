@@ -160,7 +160,7 @@ beerlist:
     ibu: 18
     description: Light and refreshing with an ever so slight malty finish. This is
       an easy drinker on both hot and cold days. Take it to the beach or cozy up
-      by the fire. Its always good!!
+      by the fire. Its always good!
   - growlerPrice: 22.5
     crowlerPrice: 15
     pourOz: 16
@@ -192,7 +192,7 @@ beerlist:
     ibu: 33
     description: "If you like coffee and beer, this is your new best friend! This
       beer is very coffee forward with all the traditional flavors of a stout,
-      but its surprisingly golden in color. April Fool's :). "
+      but its surprisingly golden in color. April Fool's 😃 "
   - growlerPrice: 22.5
     crowlerPrice: 15
     pourOz: 16
@@ -220,8 +220,8 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
     ibu: 24
-    description: Well balanced medium bodied with roasted malt flavor.  A hint of
-      caramel and nutty ending. Its the luck of the Irish!
+    description: Well balanced, medium bodied with roasted malt flavor.  A hint of
+      caramel and nutty ending. It's the luck of the Irish!
   - crowlerPrice: 18
     pourOz: 13
     alt: Big Booze Bully
@@ -264,7 +264,7 @@ beerlist:
     image: https://ucarecdn.com/41ad2619-6c35-4a11-a1ae-ae7e72cb0fa9/
     ibu: 20
     description: Starts fresh with a taste of pineapple, then blends into a full
-      mouth flavor with slight creamy notes.  End round and smooth with just a
+      mouth flavor with slight creamy notes.  Ends round and smooth with just a
       slight bite. Not your usual IPA.
   - crowlerPrice: 15
     pourOz: 13
