@@ -11,8 +11,12 @@ Welcome to Earth and Fire, where we make great beer happen. We are excited to ha
 
 # Opening Hours
 
-**Friday:** 3-7PM
+**Friday:** 3-7 PM
 
-**Saturday:** 12-6PM
+**Saturday:** 12-6 PM
 
-**Sunday:** 12-5PM
+**Sunday:** 12-5 PM
+
+### 825 Riverside Ave. Suite 1, Paso Robles, CA.
+
+### (805) 270-2959
