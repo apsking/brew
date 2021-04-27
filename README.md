@@ -2,7 +2,9 @@
 # Earth and Fire Brewing
 [![Netlify Status](https://api.netlify.com/api/v1/badges/72fded29-abb4-4cf3-81ef-8c667ef5e32f/deploy-status)](https://app.netlify.com/sites/frosty-hugle-d9caaa/deploys)
 
+Website for https://www.earthandfirebrewery.com/
 
+Built using GatsbyJS and Netlify.
 
 ## Developing
 ### Prerequisites
