@@ -101,10 +101,10 @@ export default class BeerList extends Component {
                     alt={beer.alt}
                   />
                 </div>
-                {beer.title && <h3>{beer.title}</h3>}
-                {beer.abv && <span><b>ABV: </b>{beer.abv}%</span>}
-                {beer.ibu && <span><b>IBU: </b>{beer.ibu}</span>}
-                {beer.description && <p>{beer.description}</p>}
+                {!!beer.title && <h3>{beer.title}</h3>}
+                {!!beer.abv && <span><b>ABV: </b>{beer.abv}%</span>}
+                {!!beer.ibu && <span><b>IBU: </b>{beer.ibu}</span>}
+                {!!beer.description && <p>{beer.description}</p>}
               </div>
             ))}
           </div>
