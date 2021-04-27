@@ -3,9 +3,9 @@ template: BeersPage
 slug: beers
 title: The Beer
 featuredImage: https://ucarecdn.com/928e2f02-a229-42da-9134-a3951d86734b/-/crop/1970x1367/18,233/-/preview/
-section1: All brewed on a 100% homemade, 2 barrel system by Brewmaster and
+section1: All brewed on a 100% homemade two-barrel system by Brewmaster and
   Founder, Nolan Mott. There is a beer for everyone - whether you prefer light,
-  hoppy, fruity, malted, or sweet!
+  hoppy, fruity, malted, or sweet.
 menuMessage: "## Follow us on
   ![instagram](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaX\
   HeAAASVklEQVR4XsVbCXhV1bX+971JCAmSAAkhBIXMYZYWZSiGSQiIgIAosbQgFkGl2Io+qMOjPi3\
@@ -158,7 +158,9 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/afd91e8c-556c-4842-a447-b0515968df73/
     ibu: 18
-    description: Blonde ale
+    description: Light and refreshing with an ever so slight malty finish. This is
+      an easy drinker on both hot and cold days. Take it to the beach or cozy up
+      by the fire. Its always good!!
   - growlerPrice: 22.5
     crowlerPrice: 15
     pourOz: 16
@@ -172,7 +174,9 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/8ac1ef46-79d5-4893-ac3a-883288aa2d18/
     ibu: 33
-    description: Porter
+    description: This beer is the epitome of smooth. Light in body, but delivers on
+      the creamy, malty, and roasted flavors. Be surprised by the small hints of
+      coffee and chocolate.
   - growlerPrice: 26
     crowlerPrice: 15
     pourOz: 13
@@ -181,23 +185,25 @@ beerlist:
     status: CURRENT
     isMenuHidden: false
     abv: 6.9
-    title: Golden Stout
+    title: April Fools!
     type: Golden Stout
     isWebsiteHidden: false
     image: https://ucarecdn.com/0a0e4bcd-df91-486d-b0a3-0ac3f2d3842b/
     ibu: 33
-    description: golden stout
+    description: "If you like coffee and beer, this is your new best friend! This
+      beer is very coffee forward with all the traditional flavors of a stout,
+      but its surprisingly golden in color. April Fool's :). "
   - growlerPrice: 22.5
     crowlerPrice: 15
     pourOz: 16
     alt: Temple of the Hop
     pourPrice: 7.5
     status: CURRENT
-    isMenuHidden: false
+    isMenuHidden: true
     abv: 7.1
     title: Temple of the Hop
     type: IPA - West Coast
-    isWebsiteHidden: false
+    isWebsiteHidden: true
     image: https://ucarecdn.com/aa110474-1c77-4bd0-8c70-1647e318d073/
     ibu: 73
     description: temple
@@ -214,31 +220,35 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
     ibu: 24
-    description: red
+    description: Well balanced medium bodied with roasted malt flavor.  A hint of
+      caramel and nutty ending. Its the luck of the Irish!
   - crowlerPrice: 18
     pourOz: 13
-    alt: Big Booze Verdot
+    alt: Big Booze Bully
     pourPrice: 8.5
     status: CURRENT
     isMenuHidden: false
     abv: 9.7
-    title: Big Booze Verdot
+    title: Big Booze Bully
     type: Stout - Imperial
     isWebsiteHidden: false
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
     ibu: 50
-    description: Russian Stout
+    description: You big ol' bully! This classic Imperial Stout is bold, bold, bold.
+      It has all the roasted smokey goodness that you are looking for with the
+      addition of cocoa nibs for a smooth chocolate taste.
   - crowlerPrice: 15
     pourOz: 16
-    alt: Pick Your Favorite Seltzer!
+    alt: Pick Your Flavor Seltzer!
     pourPrice: 6.5
     status: CURRENT
     isMenuHidden: false
     abv: 4.8
-    title: Pick Your Favorite Seltzer!
+    title: Pick Your Flavor Seltzer!
     type: Hard Seltzer
     isWebsiteHidden: false
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
+    ibu: 0
     description: seltzer
   - growlerPrice: 19
     crowlerPrice: 16
@@ -253,9 +263,25 @@ beerlist:
     isWebsiteHidden: false
     image: https://ucarecdn.com/41ad2619-6c35-4a11-a1ae-ae7e72cb0fa9/
     ibu: 20
-    description: Starts fresh with a taste of pineapple, then blends into a full
-      mouth flavor with slight creamy notes. Ends round and smooth with just a
-      slight bite. Not your usual IPA!
+    description: Starts fresh with a taste of pineapple,, then blends into a full
+      mouth flavor with slight creamy notes.  End round and smooth with just a
+      slight bite. Not your usual IPA
+  - crowlerPrice: 15
+    pourOz: 13
+    alt: Hip-Hop Anonymous
+    pourPrice: 7
+    status: CURRENT
+    isMenuHidden: true
+    abv: 8.7
+    title: Hip-Hop Anonymous
+    type: Double IPA
+    isWebsiteHidden: true
+    image: https://ucarecdn.com/89e0a974-3ec2-4012-a6c1-318737f69578/
+    ibu: 99
+    description: "This beer is sure going to give you the the bold taste you are
+      looking for in a double IPA. But without the burn of a high alcohol beer.
+      This is an easy to drink beer that is hop forward with citrus and floral
+      notes that will please even the most discerning palettes. "
   - crowlerPrice: 16
     pourOz: 13
     alt: Upcoming Beer
