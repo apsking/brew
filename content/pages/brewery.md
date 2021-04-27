@@ -8,7 +8,7 @@ section1: >-
   ## Neighborhood Nano Brewery
 
 
-  On the outskirts of downtown Paso Robles CA sits Paso Robles's first Nano Brewery. First opened back in 2016 specializing in a variety of unfiltered craft beers from IPA’s, to Imperial Chocolate Stouts, and plenty in between.
+  On the outskirts of downtown Paso Robles CA sits Paso Robles's first Nano Brewery. First opened back in 2016, it specializes in a variety of unfiltered craft beers from IPA’s, to Imperial Chocolate Stouts, and plenty in between.
 section2: ""
 video: https://ucarecdn.com/71684697-3e99-40ce-ad96-2f67f7e0c0a0/
 videoPoster: https://ucarecdn.com/0ad166f7-39fd-4c7e-8427-b522b103ab42/

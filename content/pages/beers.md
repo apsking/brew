@@ -3,9 +3,9 @@ template: BeersPage
 slug: beers
 title: The Beer
 featuredImage: https://ucarecdn.com/928e2f02-a229-42da-9134-a3951d86734b/-/crop/1970x1367/18,233/-/preview/
-section1: All brewed on a 100% homemade 2 barrel system by Brewmaster and
+section1: All brewed on a 100% homemade, 2 barrel system by Brewmaster and
   Founder, Nolan Mott. There is a beer for everyone - whether you prefer light,
-  hoppy, fruity, malted, or sweet.
+  hoppy, fruity, malted, or sweet!
 menuMessage: "## Follow us on
   ![instagram](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaX\
   HeAAASVklEQVR4XsVbCXhV1bX+971JCAmSAAkhBIXMYZYWZSiGSQiIgIAosbQgFkGl2Io+qMOjPi3\
