@@ -156,7 +156,7 @@ beerlist:
     title: Cali Blonde
     type: Blonde Ale
     isWebsiteHidden: false
-    image: https://ucarecdn.com/5350b4a8-1e3d-4edb-ba46-311913285fc5/
+    image: https://ucarecdn.com/2b7219ad-b763-41d8-aa87-0152f6ab3f4d/
     ibu: 18
     description: Light and refreshing with an ever so slight malty finish. This is
       an easy drinker on both hot and cold days. Take it to the beach or cozy up
@@ -218,7 +218,7 @@ beerlist:
     title: Irish Red
     type: Red - Ale
     isWebsiteHidden: false
-    image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
+    image: https://ucarecdn.com/e2cad2d8-54c4-4432-9e5d-be16625b7dcf/
     ibu: 24
     description: Well balanced, medium bodied with roasted malt flavor.  A hint of
       caramel and nutty ending. It's the luck of the Irish!
@@ -232,7 +232,7 @@ beerlist:
     title: Big Booze Bully
     type: Stout - Imperial
     isWebsiteHidden: false
-    image: https://ucarecdn.com/53f9ec3e-53c7-4ef1-9855-94dd2756a8e8/
+    image: https://ucarecdn.com/e3d33604-24d4-4711-8167-de198bf96ae3/
     ibu: 50
     description: You big ol' bully! This classic Imperial Stout is bold, bold, bold.
       It has all the roasted smokey goodness that you are looking for with the
@@ -261,7 +261,7 @@ beerlist:
     title: Last Nights Haze
     type: IPA
     isWebsiteHidden: false
-    image: https://ucarecdn.com/e8aae200-55b7-4f31-a3a1-a40bcb66c109/
+    image: https://ucarecdn.com/604c009f-af1c-43f1-960b-ce485b19cf77/
     ibu: 20
     description: Starts fresh with a taste of pineapple, then blends into a full
       mouth flavor with slight creamy notes.  Ends round and smooth with just a
