@@ -188,7 +188,7 @@ beerlist:
     title: April Fools!
     type: Golden Stout
     isWebsiteHidden: false
-    image: https://ucarecdn.com/0a0e4bcd-df91-486d-b0a3-0ac3f2d3842b/
+    image: https://ucarecdn.com/c4d84c21-e022-4b20-9d75-a9dd32ae8cf5/
     ibu: 33
     description: "If you like coffee and beer, this is your new best friend! This
       beer is very coffee forward with all the traditional flavors of a stout,
