@@ -172,7 +172,7 @@ beerlist:
     title: Paso Robles Porter
     type: Porter - American
     isWebsiteHidden: false
-    image: https://ucarecdn.com/8ac1ef46-79d5-4893-ac3a-883288aa2d18/
+    image: https://ucarecdn.com/7fca1065-e3dc-4f12-9dce-30eb6235e10c/
     ibu: 33
     description: This beer is the epitome of smooth. Light in body, but delivers on
       the creamy, malty, and roasted flavors. Be surprised by the small hints of
