@@ -156,7 +156,7 @@ beerlist:
     title: Cali Blonde
     type: Blonde Ale
     isWebsiteHidden: false
-    image: https://ucarecdn.com/afd91e8c-556c-4842-a447-b0515968df73/
+    image: https://ucarecdn.com/5350b4a8-1e3d-4edb-ba46-311913285fc5/
     ibu: 18
     description: Light and refreshing with an ever so slight malty finish. This is
       an easy drinker on both hot and cold days. Take it to the beach or cozy up
@@ -232,7 +232,7 @@ beerlist:
     title: Big Booze Bully
     type: Stout - Imperial
     isWebsiteHidden: false
-    image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
+    image: https://ucarecdn.com/53f9ec3e-53c7-4ef1-9855-94dd2756a8e8/
     ibu: 50
     description: You big ol' bully! This classic Imperial Stout is bold, bold, bold.
       It has all the roasted smokey goodness that you are looking for with the
@@ -261,7 +261,7 @@ beerlist:
     title: Last Nights Haze
     type: IPA
     isWebsiteHidden: false
-    image: https://ucarecdn.com/41ad2619-6c35-4a11-a1ae-ae7e72cb0fa9/
+    image: https://ucarecdn.com/e8aae200-55b7-4f31-a3a1-a40bcb66c109/
     ibu: 20
     description: Starts fresh with a taste of pineapple, then blends into a full
       mouth flavor with slight creamy notes.  Ends round and smooth with just a
