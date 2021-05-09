@@ -247,7 +247,7 @@ beerlist:
     title: Pick Your Flavor Seltzer!
     type: Hard Seltzer
     isWebsiteHidden: false
-    image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
+    image: https://ucarecdn.com/e0eabb7d-f883-4fdf-a2f8-f5b85b85844e/
     ibu: 0
     description: seltzer
   - growlerPrice: 19
