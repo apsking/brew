@@ -17,6 +17,7 @@ Welcome to Earth and Fire, where we make great beer happen. We are excited to ha
 
 **Sunday:** 12-5 PM
 
-### 825 Riverside Ave. Suite 1, Paso Robles, CA.
+# Contact
+**[825 Riverside Ave. Suite 1, Paso Robles, CA.](https://www.google.com/maps/search/825%20Riverside%20Ave,%20Ste%201%0APaso%20Robles,%20CA,%20CA%2093446)**
 
-### (805) 270-2959
+**[(805) 270-2959](tel:8052702959)**
