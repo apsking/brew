@@ -318,7 +318,7 @@ beerlist:
     abv: 5.2
     title: Pale de Robles
     type: Pale Ale
-    isWebsiteHidden: true
+    isWebsiteHidden: false
     image: https://ucarecdn.com/c0ba5ef6-ec26-4f86-9e54-b2aaff77c30f/
     ibu: 33
     description: Starts with soft floral notes, turns into easy fresh cut grass.
