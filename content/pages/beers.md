@@ -308,6 +308,20 @@ beerlist:
     image: https://ucarecdn.com/c5a89449-704b-4510-8cd1-be000e83fa3e/
     ibu: 50
     description: beer
+  - growlerPrice: 19.5
+    crowlerPrice: 15
+    pourOz: 16
+    alt: Pale Ale
+    pourPrice: 6
+    status: CURRENT
+    isMenuHidden: false
+    abv: 5.2
+    title: Pale de Robles
+    type: Pale Ale
+    isWebsiteHidden: true
+    image: https://ucarecdn.com/c0ba5ef6-ec26-4f86-9e54-b2aaff77c30f/
+    ibu: 33
+    description: An easy drinking pale ale
 meta:
   title: ""
 ---
