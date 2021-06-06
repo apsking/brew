@@ -151,7 +151,7 @@ beerlist:
     alt: Cali Blonde
     pourPrice: 6.5
     status: CURRENT
-    isMenuHidden: false
+    isMenuHidden: true
     abv: 5.2
     title: Cali Blonde
     type: Blonde Ale
@@ -213,7 +213,7 @@ beerlist:
     alt: Irish Red
     pourPrice: 6.5
     status: CURRENT
-    isMenuHidden: false
+    isMenuHidden: true
     abv: 5.1
     title: Irish Red
     type: Red - Ale
@@ -256,7 +256,7 @@ beerlist:
     alt: Last Nights Haze
     pourPrice: 7
     status: CURRENT
-    isMenuHidden: false
+    isMenuHidden: true
     abv: 7.5
     title: Last Nights Haze
     type: IPA
